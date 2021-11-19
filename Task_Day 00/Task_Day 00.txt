@@ -1,0 +1,23 @@
+1. What are 𝑚𝑒𝑎𝑛, 𝑚𝑒𝑑𝑖𝑎𝑛, 𝑚𝑜𝑑𝑒, 𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒, and 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑 𝑑𝑒𝑣𝑖𝑎𝑡𝑖𝑜𝑛 ?
+
+>> - The mean: is the average in a set of data. 
+       It is the most commonly used measure of central tendency. 
+       It would only be used on quantitative data.
+
+- The median: is the middle number in a set of data, when all values which comprise a given dataset have been ordered from the lowest value to the highest value. 
+  It is likely the second most commonly measure of central tendency and it would also only be used on qualitative data.
+
+- The mode: is the most frequently reported value in a set of data. It is not a commonly reported measure of central tendency.
+
+- The variance: is an unstandardized measure of spread. 
+  While it is often reported in statistical literature, the standard deviation will be more commonly encountered as it is a standardized measure of spread. 
+ The standard deviation represents the average of the sum of squared deviations from the mean. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. What is Gaussian distribution? 
+
+>> Gaussian distribution (also known as normal distribution) is a bell-shaped curve, and it is assumed that during any measurement values will follow a normal distribution with 
+     an equal number of measurements above and below the mean value. In order to understand normal distribution, 
+     it is important to know the definitions of “mean,” “median,” and “mode.” The “mean” is the calculated average of all values, the “median” is the value at the center point (mid-point) of the distribution, while the “mode” is the value that was observed most frequently during the measurement.
+
