@@ -1,0 +1,36 @@
+Exercise 2:
+
+1- What is overfitting and underfitting?
+
+>> -- Overfitting refers to a model that models the training data too well.
+Overfitting happens when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. 
+This means that the noise or random fluctuations in the training data is picked up and learned as concepts by the model. The problem is that these concepts do not apply to new data and negatively impact the models ability to generalize.
+Overfitting is more likely with nonparametric and nonlinear models that have more flexibility when learning a target function. 
+As such, many nonparametric machine learning algorithms also include parameters or techniques to limit and constrain how much detail the model learns.
+For example, decision trees are a nonparametric machine learning algorithm that is very flexible and is subject to overfitting training data. 
+This problem can be addressed by pruning a tree after it has learned in order to remove some of the detail it has picked up
+
+-- Underfitting refers to a model that can neither model the training data nor generalize to new data.
+An underfit machine learning model is not a suitable model and will be obvious as it will have poor performance on the training data.
+Underfitting is often not discussed as it is easy to detect given a good performance metric. The remedy is to move on and try alternate machine learning algorithms. 
+Nevertheless, it does provide a good contrast to the problem of overfitting.
+
+
+
+2- Why we test the model on both train set and test set?
+
+>> In applied machine learning, we seek a model that learns the relationship between the input and output variables using the training dataset.
+The hope and goal is that we learn a relationship that generalizes to new examples beyond the training dataset. 
+This goal motivates why we use resampling techniques like k-fold cross-validation to estimate the performance of the model when making predictions on data not used during training.
+In the case of machine learning competitions, like those on Kaggle, we are given access to the complete training dataset and the inputs of the test dataset and are required to make predictions for the test dataset.
+This leads to a possible situation where we may accidentally or choose to train a model to the test set. That is, tune the model behavior to achieve the best performance on the test dataset rather than develop a model that performs well in general, using a technique like k-fold cross-validation.
+
+
+
+Exercise 3:
+3- What are the common techniques of regularization?
+
+>> Regularization is a technique which makes slight modifications to the learning algorithm such that the model generalizes better. 
+This in turn improves the model’s performance on the unseen data as well.
+
+
